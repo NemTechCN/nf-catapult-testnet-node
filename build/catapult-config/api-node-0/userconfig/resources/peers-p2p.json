@@ -1,0 +1,16 @@
+{
+  "_info": "this file contains a list of peer_node peers",
+  "knownPeers": [
+    {
+      "publicKey": "497A8E4CA5C96150101606B106F71BBC86B9AFD00D7F0A5082BBA86406BE5409",
+      "endpoint": {
+        "host": "120.79.181.170",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "peer-node-0",
+        "roles": "Peer"
+      }
+    }
+  ]
+}
