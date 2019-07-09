@@ -1,0 +1,924 @@
+2019-07-02 13:47:41.707142 0x00007f09200ae040: <info> (process::ProcessMain.cpp@79) booting process with public key EBEBBC883E3386DDCE320FC55262D1AAEFD98F57842E1AA154149BE1439C00DB
+2019-07-02 13:47:41.716164 0x00007f09200ae040: <info> (thread::IoThreadPool.cpp@103) broker IoThreadPool spawned 2 workers
+2019-07-02 13:47:41.716225 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.addressextraction.so
+2019-07-02 13:47:41.716903 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libextension.addressextraction.so loaded as 0x2206ce0
+2019-07-02 13:47:41.716918 0x00007f09200ae040: <info> (extensions::ProcessBootstrapper.cpp@100) registering dynamic extension extension.addressextraction
+2019-07-02 13:47:41.716980 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.mongo.so
+2019-07-02 13:47:41.719459 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libextension.mongo.so loaded as 0x2208ea0
+2019-07-02 13:47:41.719475 0x00007f09200ae040: <info> (extensions::ProcessBootstrapper.cpp@100) registering dynamic extension extension.mongo
+2019-07-02 13:47:41.726387 0x00007f09200ae040: <info> (thread::IoThreadPool.cpp@103) bulk writer IoThreadPool spawned 4 workers
+2019-07-02 13:47:41.726552 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.restrictionaccount.so
+2019-07-02 13:47:41.726979 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.restrictionaccount.so loaded as 0x2218800
+2019-07-02 13:47:41.727004 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.restrictionaccount
+2019-07-02 13:47:41.727669 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.multisig.so
+2019-07-02 13:47:41.728403 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.multisig.so loaded as 0x221b430
+2019-07-02 13:47:41.728430 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.multisig
+2019-07-02 13:47:41.728518 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.mosaic.so
+2019-07-02 13:47:41.728991 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.mosaic.so loaded as 0x221e6e0
+2019-07-02 13:47:41.729016 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.mosaic
+2019-07-02 13:47:41.729118 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.locksecret.so
+2019-07-02 13:47:41.729576 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.locksecret.so loaded as 0x22214a0
+2019-07-02 13:47:41.729616 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.locksecret
+2019-07-02 13:47:41.729711 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.lockhash.so
+2019-07-02 13:47:41.730216 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.lockhash.so loaded as 0x2224830
+2019-07-02 13:47:41.730240 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.lockhash
+2019-07-02 13:47:41.730332 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.aggregate.so
+2019-07-02 13:47:41.730962 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.aggregate.so loaded as 0x2227980
+2019-07-02 13:47:41.730987 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.aggregate
+2019-07-02 13:47:41.731055 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.transfer.so
+2019-07-02 13:47:41.731356 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.transfer.so loaded as 0x2229210
+2019-07-02 13:47:41.731379 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.transfer
+2019-07-02 13:47:41.731440 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.namespace.so
+2019-07-02 13:47:41.731868 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.namespace.so loaded as 0x2229b20
+2019-07-02 13:47:41.731893 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.namespace
+2019-07-02 13:47:41.731988 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.accountlink.so
+2019-07-02 13:47:41.732303 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.accountlink.so loaded as 0x222cdc0
+2019-07-02 13:47:41.732327 0x00007f09200ae040: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.accountlink
+2019-07-02 13:47:41.732407 0x00007f09200ae040: <debug> (src::ExternalCacheStorageBuilder.h@49) creating ExternalCacheStorage with 7 storages
+2019-07-02 13:47:41.733896 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.zeromq.so
+2019-07-02 13:47:41.735858 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libextension.zeromq.so loaded as 0x223cd90
+2019-07-02 13:47:41.735883 0x00007f09200ae040: <info> (extensions::ProcessBootstrapper.cpp@100) registering dynamic extension extension.zeromq
+2019-07-02 13:47:41.744186 0x00007f09200ae040: <info> (thread::IoThreadPool.cpp@103) ZeroMqEntityPublisher IoThreadPool spawned 1 workers
+2019-07-02 13:47:41.744340 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.hashcache.so
+2019-07-02 13:47:41.745027 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libextension.hashcache.so loaded as 0x22447b0
+2019-07-02 13:47:41.745039 0x00007f09200ae040: <info> (extensions::ProcessBootstrapper.cpp@100) registering dynamic extension extension.hashcache
+2019-07-02 13:47:41.745237 0x00007f09200ae040: <info> (broker::Broker.cpp@58) registering system plugins
+2019-07-02 13:47:41.745392 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.signature.so
+2019-07-02 13:47:41.745842 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.signature.so loaded as 0x2247a80
+2019-07-02 13:47:41.745864 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.signature
+2019-07-02 13:47:41.745956 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.hashcache.so
+2019-07-02 13:47:41.746410 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.hashcache.so loaded as 0x22467e0
+2019-07-02 13:47:41.746436 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.hashcache
+2019-07-02 13:47:41.746544 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.namespace.so
+2019-07-02 13:47:41.747030 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.namespace.so loaded as 0x2247f80
+2019-07-02 13:47:41.747051 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.namespace
+2019-07-02 13:47:41.747214 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.multisig.so
+2019-07-02 13:47:41.747669 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.multisig.so loaded as 0x2249c60
+2019-07-02 13:47:41.747694 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.multisig
+2019-07-02 13:47:41.747817 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.lockhash.so
+2019-07-02 13:47:41.748264 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.lockhash.so loaded as 0x224a960
+2019-07-02 13:47:41.748284 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.lockhash
+2019-07-02 13:47:41.748405 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.locksecret.so
+2019-07-02 13:47:41.748861 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.locksecret.so loaded as 0x224b6c0
+2019-07-02 13:47:41.748883 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.locksecret
+2019-07-02 13:47:41.749006 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.restrictionaccount.so
+2019-07-02 13:47:41.749496 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.restrictionaccount.so loaded as 0x224cc50
+2019-07-02 13:47:41.749518 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.restrictionaccount
+2019-07-02 13:47:41.749665 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.aggregate.so
+2019-07-02 13:47:41.749811 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.aggregate.so loaded as 0x2227ef0
+2019-07-02 13:47:41.749828 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.aggregate
+2019-07-02 13:47:41.749941 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.mosaic.so
+2019-07-02 13:47:41.750435 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.mosaic.so loaded as 0x224e570
+2019-07-02 13:47:41.750453 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.mosaic
+2019-07-02 13:47:41.750626 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.accountlink.so
+2019-07-02 13:47:41.751085 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.accountlink.so loaded as 0x224ffa0
+2019-07-02 13:47:41.751109 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.accountlink
+2019-07-02 13:47:41.751142 0x00007f09200ae040: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.transfer.so
+2019-07-02 13:47:41.751600 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.transfer.so loaded as 0x2250c10
+2019-07-02 13:47:41.751624 0x00007f09200ae040: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.transfer
+2019-07-02 13:47:41.751722 0x00007f09200ae040: <debug> (broker::Broker.cpp@61) initializing cache
+2019-07-02 13:47:41.751736 0x00007f09200ae040: <debug> (cache::CatapultCacheBuilder.h@50) creating CatapultCache with 9 sub caches
+2019-07-02 13:47:41.751748 0x00007f09200ae040: <info> (utils::StackLogger.h@35) pushing scope 'booting broker'
+2019-07-02 13:47:41.751838 0x00007f09200ae040: <debug> (thread::MultiServicePool.h@83) registered broker::scheduler service 1
+2019-07-02 13:47:41.751934 0x00007f09200ae040: <debug> (thread::Scheduler.cpp@47) task 'block_change' is scheduled in 00:00:00.100
+2019-07-02 13:47:41.751953 0x00007f09200ae040: <debug> (thread::Scheduler.cpp@47) task 'unconfirmed_transactions_change' is scheduled in 00:00:00.100
+2019-07-02 13:47:41.751965 0x00007f09200ae040: <debug> (thread::Scheduler.cpp@47) task 'partial_transactions_change' is scheduled in 00:00:00.100
+2019-07-02 13:47:41.751976 0x00007f09200ae040: <debug> (thread::Scheduler.cpp@47) task 'transaction_status' is scheduled in 00:00:00.100
+2019-07-02 13:47:41.751988 0x00007f09200ae040: <debug> (thread::Scheduler.cpp@47) task 'state_change' is scheduled in 00:00:00.100
+2019-07-02 13:47:41.751996 0x00007f09200ae040: <info> (utils::StackLogger.h@41) popping scope 'booting broker' (0ms)
+2019-07-02 13:47:41.752093 0x00007f09200ae040: <info> (process::Signals.cpp@44) waiting for termination signal
+2019-07-02 13:47:55.358031 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:48:07.862791 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 4 messages from /data/spool/state_change
+2019-07-02 13:48:07.897016 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:48:17.377456 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:48:17.415722 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:48:47.888339 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:48:47.928939 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:49:00.393640 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:49:00.434985 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:49:27.902480 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:49:27.946826 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:49:46.408988 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:49:46.455118 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:50:04.416030 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:50:04.463795 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:50:28.974355 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:50:29.424573 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:50:56.933581 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:50:56.986451 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:51:18.441156 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:51:18.496340 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:51:48.950426 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:51:49.015174 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:52:07.456432 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:52:07.523992 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:52:31.968261 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:52:32.035236 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:52:56.478926 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:52:56.545862 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:53:23.991308 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:53:24.058819 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:53:45.500433 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:53:45.568674 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:54:10.012774 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:54:10.079569 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:54:25.518785 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:54:25.586801 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:54:43.595349 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:54:44.025951 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:55:08.106136 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:55:08.537228 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:55:29.615797 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:55:30.045451 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:55:42.050322 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:55:42.122223 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:56:03.560402 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:56:03.632176 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:56:25.070403 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:56:25.142412 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:56:43.577702 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:56:43.651018 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:57:05.085965 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:57:05.160827 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:57:26.594407 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:57:26.670624 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:57:51.103832 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:57:51.181521 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:58:00.607604 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:58:00.686681 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:58:15.613573 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:58:15.693893 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:58:37.121995 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:58:37.203446 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:58:58.630611 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:58:58.713040 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:59:20.139505 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:59:20.222403 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 13:59:44.649277 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 13:59:44.733042 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:00:00.159529 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:00:00.240588 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:00:15.687778 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:00:15.752153 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:00:34.195778 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:00:34.260658 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:00:46.201303 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:00:46.266969 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:01:08.057384 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:01:08.057947 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:01:14.060368 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:01:14.061215 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:01:32.566486 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:01:32.567287 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:01:51.073130 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:01:51.073306 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:02:00.076774 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:02:00.076948 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:02:15.583619 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:02:15.583715 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:02:37.091866 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:02:37.091970 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:02:46.595679 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:02:46.596016 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:03:01.601414 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:03:01.601486 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:03:26.112410 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:03:26.112646 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:03:44.618818 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:03:44.618987 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:03:54.122444 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:03:54.122758 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:04:06.127178 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:04:06.127347 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:04:15.631339 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:04:15.631507 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:04:24.635179 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:04:24.635347 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:04:49.144081 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:04:49.144226 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:05:01.649170 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:05:01.649192 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:05:13.653801 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:05:13.653972 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:05:26.158633 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:05:26.158809 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:05:35.162455 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:05:35.162660 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:05:53.669529 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:05:53.669562 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:06:09.175834 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:06:09.175872 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:06:21.680702 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:06:21.680690 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:06:30.684283 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:06:30.684486 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:06:43.189036 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:06:43.189042 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:06:58.194655 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:06:58.194665 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:07:16.701912 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:07:16.701906 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:07:41.211533 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:07:41.211529 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:07:53.716497 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:07:53.716508 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:08:18.225808 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:08:18.225815 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:08:36.233133 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:08:36.233149 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:08:51.739291 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:08:51.739296 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:09:16.248840 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:09:16.248852 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:09:31.754868 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:09:31.754873 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:09:50.261747 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:09:50.261732 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:10:08.268936 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:10:08.268949 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/block_change
+2019-07-02 14:10:26.775883 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:10:26.776534 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:10:48.284164 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:10:48.284214 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:10:54.286947 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:10:54.287200 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:11:06.792021 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:11:06.792178 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:11:25.298587 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:11:25.298687 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:11:43.305692 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:11:43.305699 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:11:52.809513 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:11:52.809684 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:11:58.812445 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:11:58.812632 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:12:11.316797 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:12:11.316962 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:12:29.823670 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:12:29.823677 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:12:51.332102 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:12:51.332098 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:13:15.841654 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:13:15.841903 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:13:37.349867 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:13:37.349859 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:13:55.356755 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:13:55.356790 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:14:07.861437 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:14:07.861556 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:14:23.367470 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:14:23.367551 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:14:44.875885 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:14:44.875893 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:15:09.385261 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:15:09.385309 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:15:30.393581 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:15:30.393589 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:15:39.897362 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:15:39.897810 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:15:58.404506 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:15:58.404592 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:16:13.410481 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:16:13.410563 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:16:22.914361 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:16:22.914491 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:16:38.420025 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:16:38.420187 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:16:53.425765 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:16:53.425782 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:17:14.933849 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:17:14.933852 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:17:33.440898 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:17:33.440929 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:17:48.946946 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:17:48.946955 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:18:03.952699 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:18:03.952715 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:18:19.458519 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:18:19.458511 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:18:37.965803 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:18:37.965819 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:18:56.472805 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:18:56.472809 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:19:14.979894 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:19:14.979904 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:19:23.983568 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:19:23.983593 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:19:42.490554 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:19:42.490627 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:19:54.495406 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:19:54.495435 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:20:13.003365 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:20:13.003435 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:20:34.514457 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:20:34.514641 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:20:50.019760 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:20:50.019940 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:21:05.025773 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:21:05.025829 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:21:20.531862 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:21:20.531872 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:21:39.038744 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:21:39.038740 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:21:48.542428 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:21:48.542722 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:22:03.548299 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:22:03.548304 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:22:25.057383 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:22:25.057435 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:22:31.060184 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:22:31.060342 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:22:49.566898 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:22:49.566907 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:23:08.074119 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:23:08.074210 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:23:23.579924 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:23:23.580082 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:23:38.585931 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:23:38.586039 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:23:48.089747 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:23:48.089759 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:24:12.599345 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:24:12.599360 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:24:34.107635 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:24:34.107738 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:24:52.614911 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:24:52.614930 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:25:10.622132 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:25:10.622250 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:25:35.132192 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:25:35.132288 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:25:53.639247 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:25:53.639348 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:26:06.144278 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:26:06.144415 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:26:18.149065 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:26:18.149167 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:26:36.656159 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:26:36.656169 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:26:55.162922 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:26:55.163085 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:27:19.672807 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:27:19.672845 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:27:32.177685 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:27:32.177695 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:27:53.185573 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:27:53.185636 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:28:02.689663 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:28:02.689842 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:28:18.195242 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:28:18.195404 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:28:27.199284 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:28:27.199453 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:28:42.704666 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:28:42.704782 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:29:01.211840 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:29:01.211846 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:29:22.719968 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:29:22.720063 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:29:31.723663 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:29:31.723826 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:29:53.232054 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:29:53.232073 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:30:14.740614 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:30:14.740675 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:30:20.743402 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:30:20.743555 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:30:39.250267 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:30:39.250372 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:30:57.757340 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:30:57.757356 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:31:09.762216 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:31:09.762210 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:31:25.268510 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:31:25.268548 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:31:46.776889 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:31:46.776896 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:32:04.783940 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:32:04.783945 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:32:20.289894 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:32:20.289907 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:32:41.798025 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:32:41.798017 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:32:57.303901 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:32:57.303996 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:33:06.307687 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:33:06.307880 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:33:24.814741 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:33:24.814834 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:33:43.322327 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:33:43.322425 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:34:01.829624 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:34:01.829662 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:34:16.835804 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:34:16.836049 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:34:23.339053 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:34:23.339251 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:34:35.343704 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:34:35.343876 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:34:53.851052 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:34:53.851061 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:35:06.355982 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:35:06.356070 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:35:24.362830 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:35:24.362906 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:35:36.867832 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:35:36.867842 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:35:52.373814 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:35:52.373820 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:36:04.378621 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:36:04.378628 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:36:25.887074 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:36:25.887068 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:36:50.396521 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:36:50.396531 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:37:08.903702 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:37:08.903709 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:37:17.907339 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:37:17.907531 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:37:36.414823 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:37:36.414814 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:37:54.922443 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:37:54.922451 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:38:10.428848 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:38:10.428961 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:38:28.936537 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:38:28.936545 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:38:43.942487 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:38:43.942498 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:39:05.450941 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:39:05.450952 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:39:20.956802 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:39:20.956885 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:39:42.464613 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:39:42.464726 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:39:57.470234 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:39:57.470332 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:40:18.978178 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:40:18.978188 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:40:37.485208 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:40:37.485236 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:40:55.991973 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:40:55.992134 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:41:14.498841 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:41:14.499005 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:41:23.505045 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:41:23.505050 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:41:42.011989 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:41:42.012007 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:41:57.517688 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:41:57.517988 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:42:15.528556 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:42:15.528576 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:42:28.033351 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:42:28.033509 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:42:43.539263 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:42:43.539279 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:43:08.047087 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:43:08.047255 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:43:23.052345 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:43:23.053006 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:43:41.558559 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:43:41.559264 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:43:54.063137 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:43:54.064064 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:44:03.066947 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:44:03.067743 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:44:24.573948 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:44:24.574421 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:44:40.079411 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:44:40.079556 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:44:58.586552 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:44:58.586561 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:45:16.593790 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:45:16.593795 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:45:32.099694 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:45:32.099788 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:45:44.604654 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:45:44.604817 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:45:59.610386 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:45:59.610397 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:46:15.116689 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:46:15.116723 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:46:36.624917 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:46:36.625015 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:46:58.133302 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:46:58.133465 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:47:04.136241 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:47:04.136395 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:47:07.638667 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:47:07.638683 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:47:22.644535 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:47:22.644695 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:47:29.147603 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:47:29.147769 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:47:44.152983 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:47:44.153580 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:48:02.659033 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:48:02.659608 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:48:12.163004 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:48:12.163688 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:48:27.168488 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:48:27.168982 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:48:39.672987 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:48:39.673588 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:48:58.180318 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:48:58.180327 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:49:13.186058 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:49:13.186240 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:49:25.691051 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:49:25.691153 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:49:41.197113 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:49:41.197106 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:49:56.703128 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:49:56.703149 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:50:14.710299 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:50:14.710388 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:50:27.215185 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:50:27.215278 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:50:42.721378 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:50:42.721433 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:51:00.728449 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:51:00.728457 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:51:07.231974 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:51:07.232003 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:51:10.233951 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:51:10.234178 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:51:34.741495 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:51:34.741500 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:51:50.247409 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:51:50.247402 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:52:05.753473 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:52:05.753567 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:52:23.760423 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:52:23.760471 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:52:39.266647 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:52:39.266677 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:52:45.269545 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:52:45.270108 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:53:06.777182 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:53:06.777359 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:53:19.282057 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:53:19.282218 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:53:37.789037 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:53:37.789043 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:53:55.795972 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:53:55.795980 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:54:11.302009 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:54:11.302164 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:54:23.806873 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:54:23.806992 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:54:32.810546 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:54:32.810640 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:54:51.317814 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:54:51.317902 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:54:57.320636 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:54:57.320801 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:55:15.827540 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:55:15.827554 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:55:31.333394 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:55:31.333408 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:55:46.839200 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:55:46.839292 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:56:04.846096 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:56:04.846187 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:56:14.349743 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:56:14.349886 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:56:32.856917 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:56:32.856909 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:56:54.365446 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:56:54.365459 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:57:03.369083 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:57:03.369230 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:57:18.875195 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:57:18.875289 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:57:21.877249 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:57:21.877448 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:57:40.383732 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:57:40.383903 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:57:58.891126 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:57:58.891142 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:58:10.895877 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:58:10.896138 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:58:26.401945 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:58:26.402049 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:58:41.908138 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:58:41.908154 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:58:56.913908 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:58:56.913904 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:59:18.422712 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:59:18.422756 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:59:36.930250 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 14:59:36.930344 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:59:46.433910 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 14:59:46.434138 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:00:04.441439 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:00:04.441458 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:00:22.948848 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:00:22.948918 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:00:29.451990 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:00:29.452874 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:00:47.458385 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:00:47.459083 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:01:08.967295 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:01:08.967301 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:01:27.474331 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:01:27.474393 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:01:45.981450 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:01:45.981698 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:02:07.490021 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:02:07.490029 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:02:22.496101 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:02:22.496120 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:02:41.004134 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:02:41.004216 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:02:53.509337 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:02:53.509354 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:03:12.019330 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:03:12.019345 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:03:33.027589 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:03:33.027607 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:03:48.533640 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:03:48.533653 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:04:04.040020 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:04:04.040075 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:04:22.547461 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:04:22.547470 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:04:40.554495 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:04:40.554503 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:04:47.057298 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:04:47.057950 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:05:08.565669 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:05:08.565637 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:05:30.073945 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:05:30.074036 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:05:42.078784 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:05:42.078807 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:05:54.583625 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:05:54.583782 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:06:09.589463 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:06:09.589467 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:06:25.095363 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:06:25.095370 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:06:37.600253 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:06:37.600321 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:06:49.604818 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:06:49.605026 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:07:05.110836 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:07:05.110933 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:07:20.617190 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:07:20.617186 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:07:35.622906 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:07:35.622911 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:07:45.126760 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:07:45.126831 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:08:03.634237 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:08:03.634255 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:08:28.143842 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:08:28.143884 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:08:43.150041 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:08:43.150049 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:09:01.658009 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:09:01.658025 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:09:23.166661 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:09:23.166657 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:09:35.671574 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:09:35.671581 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:09:41.674337 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:09:41.674721 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:09:54.179325 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:09:54.179335 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:10:09.184897 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:10:09.184904 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:10:30.693212 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:10:30.693305 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:10:52.201699 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:10:52.201775 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:11:04.706866 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:11:04.706897 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:11:22.713929 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:11:22.713984 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:11:38.220007 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:11:38.220011 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:11:59.728374 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:11:59.728450 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:12:21.236738 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:12:21.236821 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:12:33.241310 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:12:33.241475 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:12:39.744297 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:12:39.744469 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:12:55.249734 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:12:55.249765 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:13:04.253323 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:13:04.253673 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:13:13.757128 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:13:13.757813 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:13:28.762888 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:13:28.762986 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:13:38.266776 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:13:38.267205 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:13:50.271488 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:13:50.271493 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:14:02.776522 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:14:02.776545 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:14:12.280479 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:14:12.280788 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:14:33.288450 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:14:33.288462 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:14:42.792396 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:14:42.792559 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:15:01.299685 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:15:01.299732 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:15:13.304363 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:15:13.304612 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:15:19.807338 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:15:19.808027 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:15:31.811888 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:15:31.812315 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:15:44.316599 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:15:44.316834 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:15:59.822554 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:15:59.822569 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:16:14.828673 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:16:14.828677 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:16:36.336932 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:16:36.336926 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:16:45.840587 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:16:45.840741 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:16:51.843462 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:16:51.843732 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:17:10.350512 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:17:10.350527 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:17:34.860355 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:17:34.860421 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:17:47.365539 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:17:47.366422 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:18:05.372202 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:18:05.372226 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:18:17.876940 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:18:17.876955 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:18:39.385585 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:18:39.385685 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:18:57.892976 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:18:57.892992 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:19:19.401611 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:19:19.401678 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:19:25.404567 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:19:25.404730 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:19:40.910400 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:19:40.910408 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:19:55.916250 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:19:55.916260 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:20:14.423697 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:20:14.423690 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:20:23.927457 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:20:23.927622 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:20:38.933147 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:20:38.933313 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:20:54.439191 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:20:54.439285 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:21:03.942909 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:21:03.943174 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:21:21.949878 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:21:21.949913 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:21:34.454800 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:21:34.454795 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:21:55.963198 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:21:55.963191 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:22:17.471581 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:22:17.471589 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:22:35.478418 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:22:35.478430 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:22:50.984226 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:22:50.984246 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:23:03.489274 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:23:03.489304 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:23:09.492139 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:23:09.492301 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:23:24.997790 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:23:24.997850 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:23:43.005561 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:23:43.008775 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:23:55.511212 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:23:55.513177 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:24:17.019819 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:24:17.020870 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:24:35.527147 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:24:35.527162 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:24:56.535553 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:24:56.535560 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:25:12.045504 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:25:12.045509 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:25:21.549235 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:25:21.549379 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:25:43.057680 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:25:43.057712 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:26:07.066882 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:26:07.066898 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:26:22.573019 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:26:22.573024 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:26:38.079110 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:26:38.079103 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:26:41.081186 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:26:41.081385 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:26:59.587331 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:26:59.587499 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:27:12.091849 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:27:12.092017 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:27:30.098463 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:27:30.098498 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:27:42.603299 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:27:42.603303 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:27:58.109171 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:27:58.109182 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:28:19.617012 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:28:19.617017 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:28:34.622446 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:28:34.622537 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:28:47.127019 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:28:47.127639 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:29:05.634136 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:29:05.634151 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:29:27.142375 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:29:27.142470 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:29:39.147008 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:29:39.147159 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:30:00.654944 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:30:00.654950 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:30:19.161833 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:30:19.161863 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:30:37.668510 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:30:37.668680 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:30:52.674040 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:30:52.674789 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:31:05.178915 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:31:05.179139 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:31:23.685807 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:31:23.685904 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:31:32.689452 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:31:32.689635 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:31:51.196180 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:31:51.196190 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:32:06.701756 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:32:06.701883 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:32:15.705411 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:32:15.705570 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:32:37.213274 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:32:37.213282 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:32:58.721368 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:32:58.721449 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:33:14.227385 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:33:14.227394 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:33:26.232063 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:33:26.232234 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:33:41.737939 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:33:41.738103 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:33:57.243899 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:33:57.243923 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:34:09.248544 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:34:09.248714 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:34:24.754585 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:34:24.754695 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:34:31.257629 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:34:31.257937 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 15:34:49.264233 0x00007f091be12700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 2 messages from /data/spool/state_change
+2019-07-02 15:34:49.264404 0x00007f091b611700: <debug> (subscribers::BrokerMessageReaders.h@89) preparing to process 1 messages from /data/spool/block_change
+2019-07-02 23:47:06.720408 0x00007f09200ae040: <info> (process::Signals.cpp@50) termination signal 2 received
+2019-07-02 23:47:06.720488 0x00007f09200ae040: <info> (process::ProcessMain.cpp@85) shutting down process
+2019-07-02 23:47:06.720507 0x00007f09200ae040: <info> (utils::StackLogger.h@35) pushing scope 'shutting down broker'
+2019-07-02 23:47:06.720519 0x00007f09200ae040: <info> (thread::MultiServicePool.h@160) shutting down scheduler (service group)
+2019-07-02 23:47:06.720534 0x00007f09200ae040: <info> (thread::MultiServicePool.h@79) shutting down broker::scheduler service 1
+2019-07-02 23:47:06.720552 0x00007f09200ae040: <info> (thread::Scheduler.cpp@200) Scheduler stopped
+2019-07-02 23:47:06.721036 0x00007f09200ae040: <info> (thread::MultiServicePool.h@160) shutting down bulk writer (isolated pool)
+2019-07-02 23:47:06.721067 0x00007f09200ae040: <debug> (thread::IoThreadPool.cpp@110) bulk writer IoThreadPool waiting for 4 thread pool threads to exit
+2019-07-02 23:47:06.721319 0x00007f09200ae040: <info> (thread::IoThreadPool.cpp@112) bulk writer IoThreadPool all thread pool threads exited
+2019-07-02 23:47:06.721353 0x00007f09200ae040: <debug> (thread::IoThreadPool.cpp@110) broker IoThreadPool waiting for 2 thread pool threads to exit
+2019-07-02 23:47:06.721656 0x00007f09200ae040: <info> (thread::IoThreadPool.cpp@112) broker IoThreadPool all thread pool threads exited
+2019-07-02 23:47:06.721697 0x00007f09200ae040: <info> (utils::StackLogger.h@41) popping scope 'shutting down broker' (1ms)
+2019-07-02 23:47:06.721822 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2218800 (libcatapult.mongo.plugins.restrictionaccount.so)
+2019-07-02 23:47:06.721914 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x221b430 (libcatapult.mongo.plugins.multisig.so)
+2019-07-02 23:47:06.721965 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x221e6e0 (libcatapult.mongo.plugins.mosaic.so)
+2019-07-02 23:47:06.722016 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x22214a0 (libcatapult.mongo.plugins.locksecret.so)
+2019-07-02 23:47:06.722066 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2224830 (libcatapult.mongo.plugins.lockhash.so)
+2019-07-02 23:47:06.722111 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2227980 (libcatapult.mongo.plugins.aggregate.so)
+2019-07-02 23:47:06.722155 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2229210 (libcatapult.mongo.plugins.transfer.so)
+2019-07-02 23:47:06.722188 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2229b20 (libcatapult.mongo.plugins.namespace.so)
+2019-07-02 23:47:06.722247 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x222cdc0 (libcatapult.mongo.plugins.accountlink.so)
+2019-07-02 23:47:06.723124 0x00007f09200ae040: <debug> (thread::IoThreadPool.cpp@110) ZeroMqEntityPublisher IoThreadPool waiting for 1 thread pool threads to exit
+2019-07-02 23:47:06.723602 0x00007f09200ae040: <info> (thread::IoThreadPool.cpp@112) ZeroMqEntityPublisher IoThreadPool all thread pool threads exited
+2019-07-02 23:47:06.723827 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2206ce0 (libextension.addressextraction.so)
+2019-07-02 23:47:06.723934 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2208ea0 (libextension.mongo.so)
+2019-07-02 23:47:06.724219 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x223cd90 (libextension.zeromq.so)
+2019-07-02 23:47:06.724381 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x22447b0 (libextension.hashcache.so)
+2019-07-02 23:47:06.724454 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2247a80 (libcatapult.plugins.signature.so)
+2019-07-02 23:47:06.724500 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x22467e0 (libcatapult.plugins.hashcache.so)
+2019-07-02 23:47:06.724554 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2247f80 (libcatapult.plugins.namespace.so)
+2019-07-02 23:47:06.724621 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2249c60 (libcatapult.plugins.multisig.so)
+2019-07-02 23:47:06.724676 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x224a960 (libcatapult.plugins.lockhash.so)
+2019-07-02 23:47:06.724729 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x224b6c0 (libcatapult.plugins.locksecret.so)
+2019-07-02 23:47:06.724783 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x224cc50 (libcatapult.plugins.restrictionaccount.so)
+2019-07-02 23:47:06.724843 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2227ef0 (libcatapult.plugins.aggregate.so)
+2019-07-02 23:47:06.724892 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x224e570 (libcatapult.plugins.mosaic.so)
+2019-07-02 23:47:06.724967 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x224ffa0 (libcatapult.plugins.accountlink.so)
+2019-07-02 23:47:06.725020 0x00007f09200ae040: <debug> (plugins::PluginModule.cpp@85) unloading module 0x2250c10 (libcatapult.plugins.transfer.so)
