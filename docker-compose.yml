@@ -16,33 +16,33 @@
 version: '2'
 services:
   ######  dynamic configuration  ###########
-
-  generate-raw-addresses:
-    image: techbureau/catapult-tools:gcc-0.5.0.1
-    command: bash -c "/bin-mount/generate-raw-addresses-if-needed 50 /addresses/raw-addresses.txt /addresses/addresses.yaml"
-    volumes:
-    - ./bin/bash:/bin-mount
-    - ./build/generated-addresses:/addresses:rw
-    - ./build/state:/state:rw
-
-  store-addresses:
-    build: cmds/docker/dockerfiles/ruby-alpine
-    command: ash -c "/bin-mount/wait /addresses/raw-addresses.txt && /ruby/bin/store-addresses-if-needed.rb /addresses/raw-addresses.txt /addresses/addresses.yaml"
-    volumes:
-    - ./bin/ash:/bin-mount
-    - ./ruby:/ruby
-    - ./build/generated-addresses:/addresses:rw
-
-  setup-network:
-    build: cmds/docker/dockerfiles/ruby-alpine
-    command: ash -c "/bin-mount/wait /addresses/addresses.yaml && /ruby/bin/generate-and-write-configurations.rb /addresses/addresses.yaml /config-build /nemesis && touch /state/configs-generated"
-    volumes:
-    - ./bin/ash:/bin-mount
-    - ./ruby:/ruby
-    - ./build/generated-addresses:/addresses
-    - ./build/catapult-config:/config-build
-    - ./build/nemesis:/nemesis:rw
-    - ./build/state:/state:rw
+#
+#  generate-raw-addresses:
+#    image: techbureau/catapult-tools:gcc-0.5.0.1
+#    command: bash -c "/bin-mount/generate-raw-addresses-if-needed 50 /addresses/raw-addresses.txt /addresses/addresses.yaml"
+#    volumes:
+#    - ./bin/bash:/bin-mount
+#    - ./build/generated-addresses:/addresses:rw
+#    - ./build/state:/state:rw
+#
+#  store-addresses:
+#    build: cmds/docker/dockerfiles/ruby-alpine
+#    command: ash -c "/bin-mount/wait /addresses/raw-addresses.txt && /ruby/bin/store-addresses-if-needed.rb /addresses/raw-addresses.txt /addresses/addresses.yaml"
+#    volumes:
+#    - ./bin/ash:/bin-mount
+#    - ./ruby:/ruby
+#    - ./build/generated-addresses:/addresses:rw
+#
+#  setup-network:
+#    build: cmds/docker/dockerfiles/ruby-alpine
+#    command: ash -c "/bin-mount/wait /addresses/addresses.yaml && /ruby/bin/generate-and-write-configurations.rb /addresses/addresses.yaml /config-build /nemesis && touch /state/configs-generated"
+#    volumes:
+#    - ./bin/ash:/bin-mount
+#    - ./ruby:/ruby
+#    - ./build/generated-addresses:/addresses
+#    - ./build/catapult-config:/config-build
+#    - ./build/nemesis:/nemesis:rw
+#    - ./build/state:/state:rw
 
   ###### running services ###########
 
@@ -66,7 +66,7 @@ services:
 
   rest-gateway:
     image: techbureau/catapult-rest-server:1.0.16
-    command: ash -c "/bin-mount/wait /state/configs-generated && npm start resources/rest.json /userconfig/rest.json"
+    command: ash -c "npm start resources/rest.json /userconfig/rest.json"
     ports:
     - "3000:3000"
     volumes:
@@ -74,20 +74,20 @@ services:
     - ./bin/ash:/bin-mount
     - ./build/state:/state
 
-  peer-node-0-nemgen:
-    build: cmds/docker/dockerfiles/nemgen
-    command: bash -c "/bin-mount/wait /state/configs-generated && /bin/bash /userconfig/nemgen.sh && touch /state/peer-node-0-nemgen"
-    stop_signal: SIGINT
-    volumes:
-    - ./build/catapult-config/peer-node-0/userconfig/resources/:/userconfig/resources/
-    - ./build/nemesis/:/nemesis
-    - ./data/peer-node-0:/data:rw
-    - ./bin/bash:/bin-mount
-    - ./build/state:/state:rw
+#  peer-node-0-nemgen:
+#    build: cmds/docker/dockerfiles/nemgen
+#    command: bash -c "/bin-mount/wait /state/configs-generated && /bin/bash /userconfig/nemgen.sh && touch /state/peer-node-0-nemgen"
+#    stop_signal: SIGINT
+#    volumes:
+#    - ./build/catapult-config/peer-node-0/userconfig/resources/:/userconfig/resources/
+#    - ./build/nemesis/:/nemesis
+#    - ./data/peer-node-0:/data:rw
+#    - ./bin/bash:/bin-mount
+#    - ./build/state:/state:rw
 
   peer-node-0:
     build: cmds/docker/dockerfiles/catapult
-    command: bash -c "/bin-mount/wait /state/peer-node-0-nemgen && /bin/bash /userconfig/startServer.sh"
+    command: bash -c "/bin/bash /userconfig/startServer.sh"
     stop_signal: SIGINT
     ports:
     - "7900:7900"
@@ -97,20 +97,20 @@ services:
     - ./bin/bash:/bin-mount
     - ./build/state:/state
 
-  api-node-0-nemgen:
-    build: cmds/docker/dockerfiles/nemgen
-    command: bash -c "/bin-mount/wait /state/configs-generated && /bin/bash /userconfig/nemgen.sh && touch /state/api-node-0-nemgen"
-    stop_signal: SIGINT
-    volumes:
-    - ./build/catapult-config/api-node-0/userconfig/resources/:/userconfig/resources/
-    - ./build/nemesis/:/nemesis
-    - ./data/api-node-0:/data:rw
-    - ./bin/bash:/bin-mount
-    - ./build/state:/state:rw
+#  api-node-0-nemgen:
+#    build: cmds/docker/dockerfiles/nemgen
+#    command: bash -c "/bin-mount/wait /state/configs-generated && /bin/bash /userconfig/nemgen.sh && touch /state/api-node-0-nemgen"
+#    stop_signal: SIGINT
+#    volumes:
+#    - ./build/catapult-config/api-node-0/userconfig/resources/:/userconfig/resources/
+#    - ./build/nemesis/:/nemesis
+#    - ./data/api-node-0:/data:rw
+#    - ./bin/bash:/bin-mount
+#    - ./build/state:/state:rw
 
   api-node-0:
     build: cmds/docker/dockerfiles/catapult
-    command: bash -c "/bin-mount/wait /state/api-node-0-nemgen && /bin-mount/wait /state/api-node-0-broker && /bin/bash /userconfig/startApiServer.sh"
+    command: bash -c "/bin-mount/wait /state/api-node-0-broker && /bin/bash /userconfig/startApiServer.sh"
     stop_signal: SIGINT
     ports:
     - "7910:7910"
@@ -122,7 +122,7 @@ services:
 
   api-node-broker-0:
     build: cmds/docker/dockerfiles/catapult
-    command: bash -c "/bin-mount/wait /state/api-node-0-nemgen && /bin/bash /userconfig/startBroker.sh"
+    command: bash -c "/bin/bash /userconfig/startBroker.sh"
     stop_signal: SIGINT
     volumes:
     - ./build/catapult-config/api-node-0/userconfig/resources/:/userconfig/resources/
