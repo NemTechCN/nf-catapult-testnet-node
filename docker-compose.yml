@@ -129,3 +129,9 @@ services:
     - ./data/api-node-0:/data:rw
     - ./bin/bash:/bin-mount
     - ./build/state:/state
+
+  block-explorer:
+    image: techbureau/catapult-block-explorer
+    command: ["python", "-m", "http.server", "80"]
+    ports:
+      - "80:80"
