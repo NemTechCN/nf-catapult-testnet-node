@@ -2,6 +2,17 @@
   "_info": "this file contains a list of peer_node peers",
   "knownPeers": [
     {
+      "publicKey": "F825223DACA45E7148D4A9B91AA64644B295CC46FA1E2687D508C7A196996220",
+      "endpoint": {
+        "host": "3.0.78.183",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "peer-node-el-my-0",
+        "roles": "Peer"
+      }
+    },
+    {
       "publicKey": "497A8E4CA5C96150101606B106F71BBC86B9AFD00D7F0A5082BBA86406BE5409",
       "endpoint": {
         "host": "120.79.181.170",
