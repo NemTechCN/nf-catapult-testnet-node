@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27aafe36-fb98-40f7-a01d-84ebd97de3f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-extensions-broker.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-extensions-recovery.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-extensions-server.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-inflation.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-logging-broker.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-logging-recovery.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-logging-server.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-messaging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-network.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-networkheight.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-node.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-pt.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-task.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-timesync.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-user.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-api.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-p2p.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/api-node-0/00000/00001.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/api-node-0/00000/hashes.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/api-node-0/index.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/peer-node-0/00000/00001.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/peer-node-0/00000/hashes.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/peer-node-0/index.dat" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,37 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-harvesting.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="77" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-user.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="74" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-node.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/peers-api.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="19" lean-forward="true" selection-end-line="27" />
+            <state relative-caret-position="330">
+              <caret line="22" column="22" lean-forward="true" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -73,17 +35,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/peers-p2p.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="19" lean-forward="true" selection-end-line="27" />
+            <state relative-caret-position="315">
+              <caret line="21" column="33" lean-forward="true" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-node.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-network.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-harvesting.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="77" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/catapult-config/rest-gateway-0/userconfig/rest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="87" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-user.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="74" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-node.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-network.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-user.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="74" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -119,7 +144,6 @@
         <option value="$PROJECT_DIR$/data/api-node-0/summary.txt" />
         <option value="$PROJECT_DIR$/data/peer-node-0/summary.txt" />
         <option value="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-api.json" />
-        <option value="$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/peers-p2p.json" />
         <option value="$PROJECT_DIR$/build/nemesis/block-properties-file.properties" />
         <option value="$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-harvesting.properties" />
         <option value="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-node.properties" />
@@ -128,6 +152,7 @@
         <option value="$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-node.properties" />
         <option value="$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-p2p.json" />
         <option value="$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/peers-api.json" />
+        <option value="$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/peers-p2p.json" />
       </list>
     </option>
   </component>
@@ -158,6 +183,69 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="api-node-0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="api-node-0" type="462c0819:PsiDirectoryNode" />
+              <item name="userconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="api-node-0" type="462c0819:PsiDirectoryNode" />
+              <item name="userconfig" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="peer-node-0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="peer-node-0" type="462c0819:PsiDirectoryNode" />
+              <item name="userconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="peer-node-0" type="462c0819:PsiDirectoryNode" />
+              <item name="userconfig" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-gateway-0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catapult-service-bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catapult-service-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="catapult-config" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-gateway-0" type="462c0819:PsiDirectoryNode" />
+              <item name="userconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,11 +264,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/build/catapult-config" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data/peer-node-0" />
       <recent name="$PROJECT_DIR$/data/peer-node-0/00000" />
-      <recent name="$PROJECT_DIR$/data/api-node-0" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,11 +411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562656284045</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update">
+      <created>1563182894549</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1563182894550</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11912000" />
+    <option name="totallyTimeSpent" value="12833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -523,24 +618,17 @@
     <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-messaging.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-network.properties">
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-p2p.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-network.properties">
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-api.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-node.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -551,38 +639,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-api.json">
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-node.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="458">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/peers-p2p.json">
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/api-node-0/userconfig/resources/config-network.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="600">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-node.properties">
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-user.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="74" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/peers-api.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="true" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/peers-p2p.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="315">
+          <caret line="21" column="33" lean-forward="true" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-node.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-network.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-harvesting.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="77" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -590,20 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="87" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-harvesting.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/catapult-config/peer-node-0/userconfig/resources/config-user.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="74" />
         </state>
       </provider>
     </entry>
