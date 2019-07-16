@@ -8,7 +8,18 @@
         "port": 7910
       },
       "metadata": {
-        "name": "api-node-el-my-0",
+        "name": "api-node-my-8",
+        "roles": "Api"
+      }
+    },
+    {
+      "publicKey": "EBEBBC883E3386DDCE320FC55262D1AAEFD98F57842E1AA154149BE1439C00DB",
+      "endpoint": {
+        "host": "52.194.207.217",
+        "port": 7922
+      },
+      "metadata": {
+        "name": "api-node-jp-12",
         "roles": "Api"
       }
     },

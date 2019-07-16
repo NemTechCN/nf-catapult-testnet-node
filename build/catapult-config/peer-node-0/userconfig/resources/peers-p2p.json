@@ -8,7 +8,18 @@
         "port": 7900
       },
       "metadata": {
-        "name": "peer-node-el-my-0",
+        "name": "peer-node-my-8",
+        "roles": "Peer"
+      }
+    },
+    {
+      "publicKey": "F461A05073BA7DC014152BD3349A553F33B3CB1BBA3A54ED5B4C036F7CCD465E",
+      "endpoint": {
+        "host": "52.194.207.217",
+        "port": 7912
+      },
+      "metadata": {
+        "name": "peer-node-jp-12",
         "roles": "Peer"
       }
     },
