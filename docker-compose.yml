@@ -51,14 +51,14 @@ services:
     command: bash -c "mongod --dbpath=/dbdata --bind_ip=db"
     stop_signal: SIGINT
     volumes:
-    - ./data/mongo:/dbdata:rw
+    - /otherdisk/catapult/data/mongo:/dbdata:rw
     - ./bin/bash:/bin-mount
 
   init-db:
     image: mongo
     command:  bash -c "/bin/bash /userconfig/mongors.sh"
     volumes:
-    - ./data/mongo:/dbdata:rw
+    - /otherdisk/catapult/data/mongo:/dbdata:rw
     - ./static-config/mongo/:/userconfig/:ro
     - ./bin/bash:/bin-mount
     depends_on:
@@ -93,7 +93,7 @@ services:
     - "7900:7900"
     volumes:
     - ./build/catapult-config/peer-node-0/userconfig/resources/:/userconfig/resources/
-    - ./data/peer-node-0:/data:rw
+    - /otherdisk/catapult/data/peer-node-0:/data:rw
     - ./bin/bash:/bin-mount
     - ./build/state:/state
 
@@ -116,7 +116,7 @@ services:
     - "7910:7910"
     volumes:
     - ./build/catapult-config/api-node-0/userconfig/resources/:/userconfig/resources/
-    - ./data/api-node-0:/data:rw
+    - /otherdisk/catapult/data/api-node-0:/data:rw
     - ./bin/bash:/bin-mount
     - ./build/state:/state
 
@@ -126,7 +126,7 @@ services:
     stop_signal: SIGINT
     volumes:
     - ./build/catapult-config/api-node-0/userconfig/resources/:/userconfig/resources/
-    - ./data/api-node-0:/data:rw
+    - /otherdisk/catapult/data/api-node-0:/data:rw
     - ./bin/bash:/bin-mount
     - ./build/state:/state
 
