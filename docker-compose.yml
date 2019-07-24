@@ -132,6 +132,6 @@ services:
 
   block-explorer:
     image: techbureau/catapult-block-explorer
-    command: ["python", "-m", "http.server", "9008"]
+    command: ["python", "-m", "http.server", "8000"]
     ports:
-      - "9008:9008"
+      - "8000:8000"
